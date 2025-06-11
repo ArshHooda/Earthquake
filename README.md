@@ -29,3 +29,9 @@ We implement a **medallion architecture** to structure and organize data effecti
 - The earthquake API provides detailed seismic event data for a specified start and end date.
 - **Start Date**: Defines the range of data. This is dynamically set via Azure Data Factory for daily ingestion.
 - **API URL**: `https://earthquake.usgs.gov/fdsnws/event/1/`
+
+## **Technologies Used**
+- Azure Databricks
+- Azure Data Factory
+- Azure SQL Database
+- Power BI
