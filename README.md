@@ -35,3 +35,23 @@ We implement a **medallion architecture** to structure and organize data effecti
 - Azure Data Factory
 - Azure SQL Database
 - Power BI
+
+## Frontend Dashboard
+
+A lightweight frontend is available in `frontend/` for quickly exploring earthquake activity.
+
+### Features
+- Date and minimum magnitude filters
+- Live fetch from USGS Earthquake API
+- Summary cards (event count, max/avg magnitude, active region)
+- Interactive Leaflet map with magnitude-colored markers
+- Recent events table
+
+### Run locally
+From the repository root:
+
+```bash
+python3 -m http.server 8000
+```
+
+Then open `http://localhost:8000/frontend/`.
